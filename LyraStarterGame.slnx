@@ -1,0 +1,228 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="DebugGame" />
+    <BuildType Name="DebugGame Client" />
+    <BuildType Name="DebugGame Editor" />
+    <BuildType Name="DebugGame Server" />
+    <BuildType Name="Development" />
+    <BuildType Name="Development Client" />
+    <BuildType Name="Development Editor" />
+    <BuildType Name="Development Server" />
+    <BuildType Name="Shipping" />
+    <BuildType Name="Shipping Client" />
+    <BuildType Name="Shipping Server" />
+    <Platform Name="Win64" />
+    <Platform Name="Win64-arm64" />
+    <Platform Name="Win64-arm64ec" />
+  </Configurations>
+  <Folder Name="/Engine/">
+    <Project Path="Intermediate/ProjectFiles/UE5.vcxproj" Id="6c448d27-40cd-360b-a5f2-88176c79dd8b">
+      <BuildType Project="BuiltWithUnrealBuildTool" />
+      <Platform Project="Win64" />
+      <Build Project="false" />
+    </Project>
+  </Folder>
+  <Folder Name="/Games/" />
+  <Folder Name="/Games/LyraStarterGame/">
+    <Project Path="Intermediate/ProjectFiles/LyraGameEOS.vcxproj" Id="ccf1f0ec-bd68-3f9a-be78-b1660e492689">
+      <BuildType Solution="DebugGame Client|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Editor|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Server|*" Project="Invalid" />
+      <BuildType Solution="DebugGame|Win64-arm64" Project="Win64_arm64_DebugGame" />
+      <BuildType Solution="DebugGame|Win64-arm64ec" Project="Win64_arm64ec_DebugGame" />
+      <BuildType Solution="Development Client|*" Project="Invalid" />
+      <BuildType Solution="Development Editor|*" Project="Invalid" />
+      <BuildType Solution="Development Server|*" Project="Invalid" />
+      <BuildType Solution="Development|Win64-arm64" Project="Win64_arm64_Development" />
+      <BuildType Solution="Development|Win64-arm64ec" Project="Win64_arm64ec_Development" />
+      <BuildType Solution="Shipping Client|*" Project="Invalid" />
+      <BuildType Solution="Shipping Server|*" Project="Invalid" />
+      <BuildType Solution="Shipping|Win64-arm64" Project="Win64_arm64_Shipping" />
+      <BuildType Solution="Shipping|Win64-arm64ec" Project="Win64_arm64ec_Shipping" />
+      <Platform Project="x64" />
+      <Build Solution="DebugGame Client|*" Project="false" />
+      <Build Solution="DebugGame Editor|*" Project="false" />
+      <Build Solution="DebugGame Server|*" Project="false" />
+      <Build Solution="Development Client|*" Project="false" />
+      <Build Solution="Development Editor|*" Project="false" />
+      <Build Solution="Development Server|*" Project="false" />
+      <Build Solution="Shipping Client|*" Project="false" />
+      <Build Solution="Shipping Server|*" Project="false" />
+    </Project>
+    <Project Path="Intermediate/ProjectFiles/LyraGameSteam.vcxproj" Id="6a9bb4a6-265e-3460-a56d-16e010b9a71f">
+      <BuildType Solution="DebugGame Client|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Editor|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Server|*" Project="Invalid" />
+      <BuildType Solution="DebugGame|Win64-arm64" Project="Win64_arm64_DebugGame" />
+      <BuildType Solution="DebugGame|Win64-arm64ec" Project="Win64_arm64ec_DebugGame" />
+      <BuildType Solution="Development Client|*" Project="Invalid" />
+      <BuildType Solution="Development Editor|*" Project="Invalid" />
+      <BuildType Solution="Development Server|*" Project="Invalid" />
+      <BuildType Solution="Development|Win64-arm64" Project="Win64_arm64_Development" />
+      <BuildType Solution="Development|Win64-arm64ec" Project="Win64_arm64ec_Development" />
+      <BuildType Solution="Shipping Client|*" Project="Invalid" />
+      <BuildType Solution="Shipping Server|*" Project="Invalid" />
+      <BuildType Solution="Shipping|Win64-arm64" Project="Win64_arm64_Shipping" />
+      <BuildType Solution="Shipping|Win64-arm64ec" Project="Win64_arm64ec_Shipping" />
+      <Platform Project="x64" />
+      <Build Solution="DebugGame Client|*" Project="false" />
+      <Build Solution="DebugGame Editor|*" Project="false" />
+      <Build Solution="DebugGame Server|*" Project="false" />
+      <Build Solution="Development Client|*" Project="false" />
+      <Build Solution="Development Editor|*" Project="false" />
+      <Build Solution="Development Server|*" Project="false" />
+      <Build Solution="Shipping Client|*" Project="false" />
+      <Build Solution="Shipping Server|*" Project="false" />
+    </Project>
+    <Project Path="Intermediate/ProjectFiles/LyraGameSteamEOS.vcxproj" Id="fb006891-fbb6-38ed-8de8-df6560015018">
+      <BuildType Solution="DebugGame Client|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Editor|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Server|*" Project="Invalid" />
+      <BuildType Solution="DebugGame|Win64-arm64" Project="Win64_arm64_DebugGame" />
+      <BuildType Solution="DebugGame|Win64-arm64ec" Project="Win64_arm64ec_DebugGame" />
+      <BuildType Solution="Development Client|*" Project="Invalid" />
+      <BuildType Solution="Development Editor|*" Project="Invalid" />
+      <BuildType Solution="Development Server|*" Project="Invalid" />
+      <BuildType Solution="Development|Win64-arm64" Project="Win64_arm64_Development" />
+      <BuildType Solution="Development|Win64-arm64ec" Project="Win64_arm64ec_Development" />
+      <BuildType Solution="Shipping Client|*" Project="Invalid" />
+      <BuildType Solution="Shipping Server|*" Project="Invalid" />
+      <BuildType Solution="Shipping|Win64-arm64" Project="Win64_arm64_Shipping" />
+      <BuildType Solution="Shipping|Win64-arm64ec" Project="Win64_arm64ec_Shipping" />
+      <Platform Project="x64" />
+      <Build Solution="DebugGame Client|*" Project="false" />
+      <Build Solution="DebugGame Editor|*" Project="false" />
+      <Build Solution="DebugGame Server|*" Project="false" />
+      <Build Solution="Development Client|*" Project="false" />
+      <Build Solution="Development Editor|*" Project="false" />
+      <Build Solution="Development Server|*" Project="false" />
+      <Build Solution="Shipping Client|*" Project="false" />
+      <Build Solution="Shipping Server|*" Project="false" />
+    </Project>
+    <Project Path="Intermediate/ProjectFiles/LyraServerEOS.vcxproj" Id="a738da9b-c7b4-341d-9de9-1f196c8c1c1e">
+      <BuildType Solution="DebugGame Client|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Editor|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Server|Win64" Project="DebugGame_Server" />
+      <BuildType Solution="DebugGame Server|Win64-arm64" Project="Win64_arm64_DebugGame_Server" />
+      <BuildType Solution="DebugGame Server|Win64-arm64ec" Project="Win64_arm64ec_DebugGame_Server" />
+      <BuildType Solution="DebugGame|*" Project="Invalid" />
+      <BuildType Solution="Development Client|*" Project="Invalid" />
+      <BuildType Solution="Development Editor|*" Project="Invalid" />
+      <BuildType Solution="Development Server|Win64" Project="Development_Server" />
+      <BuildType Solution="Development Server|Win64-arm64" Project="Win64_arm64_Development_Server" />
+      <BuildType Solution="Development Server|Win64-arm64ec" Project="Win64_arm64ec_Development_Server" />
+      <BuildType Solution="Development|*" Project="Invalid" />
+      <BuildType Solution="Shipping Client|*" Project="Invalid" />
+      <BuildType Solution="Shipping Server|Win64" Project="Shipping_Server" />
+      <BuildType Solution="Shipping Server|Win64-arm64" Project="Win64_arm64_Shipping_Server" />
+      <BuildType Solution="Shipping Server|Win64-arm64ec" Project="Win64_arm64ec_Shipping_Server" />
+      <BuildType Solution="Shipping|*" Project="Invalid" />
+      <Platform Project="x64" />
+      <Build Solution="DebugGame Client|*" Project="false" />
+      <Build Solution="DebugGame Editor|*" Project="false" />
+      <Build Solution="DebugGame|*" Project="false" />
+      <Build Solution="Development Client|*" Project="false" />
+      <Build Solution="Development Editor|*" Project="false" />
+      <Build Solution="Development|*" Project="false" />
+      <Build Solution="Shipping Client|*" Project="false" />
+      <Build Solution="Shipping|*" Project="false" />
+    </Project>
+    <Project Path="Intermediate/ProjectFiles/LyraServerSteam.vcxproj" Id="8983f0aa-06cb-3e35-8940-86e6cc89bdc3">
+      <BuildType Solution="DebugGame Client|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Editor|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Server|Win64" Project="DebugGame_Server" />
+      <BuildType Solution="DebugGame Server|Win64-arm64" Project="Win64_arm64_DebugGame_Server" />
+      <BuildType Solution="DebugGame Server|Win64-arm64ec" Project="Win64_arm64ec_DebugGame_Server" />
+      <BuildType Solution="DebugGame|*" Project="Invalid" />
+      <BuildType Solution="Development Client|*" Project="Invalid" />
+      <BuildType Solution="Development Editor|*" Project="Invalid" />
+      <BuildType Solution="Development Server|Win64" Project="Development_Server" />
+      <BuildType Solution="Development Server|Win64-arm64" Project="Win64_arm64_Development_Server" />
+      <BuildType Solution="Development Server|Win64-arm64ec" Project="Win64_arm64ec_Development_Server" />
+      <BuildType Solution="Development|*" Project="Invalid" />
+      <BuildType Solution="Shipping Client|*" Project="Invalid" />
+      <BuildType Solution="Shipping Server|Win64" Project="Shipping_Server" />
+      <BuildType Solution="Shipping Server|Win64-arm64" Project="Win64_arm64_Shipping_Server" />
+      <BuildType Solution="Shipping Server|Win64-arm64ec" Project="Win64_arm64ec_Shipping_Server" />
+      <BuildType Solution="Shipping|*" Project="Invalid" />
+      <Platform Project="x64" />
+      <Build Solution="DebugGame Client|*" Project="false" />
+      <Build Solution="DebugGame Editor|*" Project="false" />
+      <Build Solution="DebugGame|*" Project="false" />
+      <Build Solution="Development Client|*" Project="false" />
+      <Build Solution="Development Editor|*" Project="false" />
+      <Build Solution="Development|*" Project="false" />
+      <Build Solution="Shipping Client|*" Project="false" />
+      <Build Solution="Shipping|*" Project="false" />
+    </Project>
+    <Project Path="Intermediate/ProjectFiles/LyraServerSteamEOS.vcxproj" Id="2141c4a2-af58-39aa-b91f-1384ea3e3570">
+      <BuildType Solution="DebugGame Client|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Editor|*" Project="Invalid" />
+      <BuildType Solution="DebugGame Server|Win64" Project="DebugGame_Server" />
+      <BuildType Solution="DebugGame Server|Win64-arm64" Project="Win64_arm64_DebugGame_Server" />
+      <BuildType Solution="DebugGame Server|Win64-arm64ec" Project="Win64_arm64ec_DebugGame_Server" />
+      <BuildType Solution="DebugGame|*" Project="Invalid" />
+      <BuildType Solution="Development Client|*" Project="Invalid" />
+      <BuildType Solution="Development Editor|*" Project="Invalid" />
+      <BuildType Solution="Development Server|Win64" Project="Development_Server" />
+      <BuildType Solution="Development Server|Win64-arm64" Project="Win64_arm64_Development_Server" />
+      <BuildType Solution="Development Server|Win64-arm64ec" Project="Win64_arm64ec_Development_Server" />
+      <BuildType Solution="Development|*" Project="Invalid" />
+      <BuildType Solution="Shipping Client|*" Project="Invalid" />
+      <BuildType Solution="Shipping Server|Win64" Project="Shipping_Server" />
+      <BuildType Solution="Shipping Server|Win64-arm64" Project="Win64_arm64_Shipping_Server" />
+      <BuildType Solution="Shipping Server|Win64-arm64ec" Project="Win64_arm64ec_Shipping_Server" />
+      <BuildType Solution="Shipping|*" Project="Invalid" />
+      <Platform Project="x64" />
+      <Build Solution="DebugGame Client|*" Project="false" />
+      <Build Solution="DebugGame Editor|*" Project="false" />
+      <Build Solution="DebugGame|*" Project="false" />
+      <Build Solution="Development Client|*" Project="false" />
+      <Build Solution="Development Editor|*" Project="false" />
+      <Build Solution="Development|*" Project="false" />
+      <Build Solution="Shipping Client|*" Project="false" />
+      <Build Solution="Shipping|*" Project="false" />
+    </Project>
+    <Project Path="Intermediate/ProjectFiles/LyraStarterGame.vcxproj" Id="c2de56ed-c780-3ae1-be99-4aae1971ada9">
+      <BuildType Solution="DebugGame Client|Win64" Project="DebugGame_Client" />
+      <BuildType Solution="DebugGame Client|Win64-arm64" Project="Win64_arm64_DebugGame_Client" />
+      <BuildType Solution="DebugGame Client|Win64-arm64ec" Project="Win64_arm64ec_DebugGame_Client" />
+      <BuildType Solution="DebugGame Editor|Win64" Project="DebugGame_Editor" />
+      <BuildType Solution="DebugGame Editor|Win64-arm64" Project="Win64_arm64_DebugGame_Editor" />
+      <BuildType Solution="DebugGame Editor|Win64-arm64ec" Project="Win64_arm64ec_DebugGame_Editor" />
+      <BuildType Solution="DebugGame Server|Win64" Project="DebugGame_Server" />
+      <BuildType Solution="DebugGame Server|Win64-arm64" Project="Win64_arm64_DebugGame_Server" />
+      <BuildType Solution="DebugGame Server|Win64-arm64ec" Project="Win64_arm64ec_DebugGame_Server" />
+      <BuildType Solution="DebugGame|Win64-arm64" Project="Win64_arm64_DebugGame" />
+      <BuildType Solution="DebugGame|Win64-arm64ec" Project="Win64_arm64ec_DebugGame" />
+      <BuildType Solution="Development Client|Win64" Project="Development_Client" />
+      <BuildType Solution="Development Client|Win64-arm64" Project="Win64_arm64_Development_Client" />
+      <BuildType Solution="Development Client|Win64-arm64ec" Project="Win64_arm64ec_Development_Client" />
+      <BuildType Solution="Development Editor|Win64" Project="Development_Editor" />
+      <BuildType Solution="Development Editor|Win64-arm64" Project="Win64_arm64_Development_Editor" />
+      <BuildType Solution="Development Editor|Win64-arm64ec" Project="Win64_arm64ec_Development_Editor" />
+      <BuildType Solution="Development Server|Win64" Project="Development_Server" />
+      <BuildType Solution="Development Server|Win64-arm64" Project="Win64_arm64_Development_Server" />
+      <BuildType Solution="Development Server|Win64-arm64ec" Project="Win64_arm64ec_Development_Server" />
+      <BuildType Solution="Development|Win64-arm64" Project="Win64_arm64_Development" />
+      <BuildType Solution="Development|Win64-arm64ec" Project="Win64_arm64ec_Development" />
+      <BuildType Solution="Shipping Client|Win64" Project="Shipping_Client" />
+      <BuildType Solution="Shipping Client|Win64-arm64" Project="Win64_arm64_Shipping_Client" />
+      <BuildType Solution="Shipping Client|Win64-arm64ec" Project="Win64_arm64ec_Shipping_Client" />
+      <BuildType Solution="Shipping Server|Win64" Project="Shipping_Server" />
+      <BuildType Solution="Shipping Server|Win64-arm64" Project="Win64_arm64_Shipping_Server" />
+      <BuildType Solution="Shipping Server|Win64-arm64ec" Project="Win64_arm64ec_Shipping_Server" />
+      <BuildType Solution="Shipping|Win64-arm64" Project="Win64_arm64_Shipping" />
+      <BuildType Solution="Shipping|Win64-arm64ec" Project="Win64_arm64ec_Shipping" />
+      <Platform Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/Visualizers/">
+    <File Path="../../../../Program Files/Epic Games/UE_5.8/Engine/Extras/VisualStudioDebugging/Unreal.natjmc" />
+    <File Path="../../../../Program Files/Epic Games/UE_5.8/Engine/Extras/VisualStudioDebugging/Unreal.natstepfilter" />
+    <File Path="../../../../Program Files/Epic Games/UE_5.8/Engine/Extras/VisualStudioDebugging/Unreal.natvis" />
+  </Folder>
+  <Properties Name="ddbf523f-7eb6-4887-bd51-85a714ff87eb">
+    <Property Name="AvailablePlatforms" Value="Win64" />
+  </Properties>
+</Solution>
