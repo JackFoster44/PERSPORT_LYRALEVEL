@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{A66B7189-4FAF-AD72-45D2-AC8909908AEA}",
+	"EngineAssociation": "5.8",
 	"Category": "Samples",
 	"Description": "",
 	"Modules": [
@@ -376,6 +376,10 @@
 		},
 		{
 			"Name": "PlatformDLC",
+			"Enabled": true
+		},
+		{
+			"Name": "AIAssistant",
 			"Enabled": true
 		}
 	],
