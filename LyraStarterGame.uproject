@@ -360,10 +360,6 @@
 			]
 		},
 		{
-			"Name": "AIAssistant",
-			"Enabled": true
-		},
-		{
 			"Name": "ToolsetRegistry",
 			"Enabled": true
 		},
